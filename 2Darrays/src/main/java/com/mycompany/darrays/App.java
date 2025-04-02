@@ -28,7 +28,7 @@ public class App {
         // Part b: Print out the input entered by the user using a for-each loop
         System.out.println("\nThe 10x10 array is:");
         for (int[] row : array) {
-            for (int value : row) {
+             for (int value : row) {
                 System.out.print(value + " ");
             }
             System.out.println(); // Move to the next line after each row
